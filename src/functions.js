@@ -121,3 +121,43 @@ let newProductName, newUnitPrice, newQuantity
 console.log(newProductName)
 console.log(newUnitPrice)
 console.log(newQuantity) 
+
+
+
+
+
+console.log("--------------")
+
+let numbers1 = [25,29];
+numbers1.forEach(function(j) {
+  
+ 
+    if (j < 2) {
+      console.log("En küçük asal sayı 2'dir. Lütfen 1'den büyük bir tam sayı giriniz.")
+  }
+  else if (j === 2)  {
+      console.log ("2 asal sayıdır.")
+  }
+  else {
+    for (let i = 2; i < j; i++) {
+        console.log("i: "+ i)
+        console.log("j: "+ j)
+        if (j % i == 0) {
+        console.log(j + " asal sayı değildir.");
+        return
+        } 
+    
+        
+        else if(i===j-1){
+        console.log(j + " asal sayıdır.");
+        return
+        }
+        
+    }
+  }
+ 
+ 
+});
+
+
+
