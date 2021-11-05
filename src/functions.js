@@ -135,7 +135,7 @@ numbers1.forEach(function(j) {
     if (j < 2) {
       console.log("En küçük asal sayı 2'dir. Lütfen 1'den büyük bir tam sayı giriniz.")
   }
-  else if (j === 2)  {
+  else if (j === 2)  { 
       console.log ("2 asal sayıdır.")
   }
   else {
