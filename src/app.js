@@ -34,3 +34,44 @@ console.log("</ul>")
     <li>Deneme3</li>
 </ul> */}
 
+//2.GÜN BİTİŞİ
+
+//QUİZ SORULARI
+/*
+let number = [10 ,20, [30, 40]]
+let a, b, c, d;
+[a, b, [c, d]] = number
+console.log(d*2)
+*/
+
+/*
+let populations = {
+    x: 10000,
+    y: 20000,
+    z: 30000
+}
+
+let newX, newY, newZ
+({x:newX, y:newY, z:newZ} = populations)
+console.log(newY)
+*/
+
+/*
+//doğrusu
+let showCategories = function (productId, name, ...categories) {
+    console.log(name)
+}
+//yanlış
+let showCategories = function (productId, ...categories, name) {
+    console.log(name)
+}
+
+showCategories(1, 'computer', "technology", "laptop")
+*/
+
+/*
+let getVatRate = () => 0.18
+//değişkene fonksiyon atanıyor
+console.log(getVatRate) //fonksiyon döner
+console.log(getVatRate()) // değer döner
+*/
